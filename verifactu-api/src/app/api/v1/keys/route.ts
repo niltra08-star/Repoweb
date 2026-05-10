@@ -3,6 +3,8 @@ import prisma from '@/lib/db';
 import { createApiKey } from '@/lib/api';
 import { verifyToken } from '@/lib/auth';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(request: NextRequest) {
   try {
     const authHeader = request.headers.get('authorization');
