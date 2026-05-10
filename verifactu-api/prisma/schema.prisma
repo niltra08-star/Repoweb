@@ -1,0 +1,66 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(uuid())
+  email         String    @unique
+  name          String?
+  password      String
+  plan          String    @default("hacker")
+  invoicesUsed  Int       @default(0)
+  nifsAllowed   Int       @default(1)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  apiKeys       ApiKey[]
+  invoices      Invoice[]
+}
+
+model ApiKey {
+  id        String   @id @default(uuid())
+  key       String   @unique
+  name      String
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lastUsed  DateTime?
+  createdAt DateTime @default(now())
+  revoked   Boolean  @default(false)
+}
+
+model Invoice {
+  id             String   @id @default(uuid())
+  externalId     String?  @unique
+  userId         String
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  emitterNif     String
+  emitterName    String
+  receiverNif    String
+  receiverName   String
+  series         String
+  number         Int
+  date           DateTime
+  total          Float
+  vat            Float
+  status         String   @default("pending")
+  xmlContent     String?
+  qrCode         String?
+  errorMessage   String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model Plan {
+  id            String   @id @default(uuid())
+  name          String   @unique
+  price         Float
+  invoicesLimit Int
+  nifsLimit     Int
+  features      String
+  active        Boolean  @default(true)
+  createdAt     DateTime @default(now())
+}

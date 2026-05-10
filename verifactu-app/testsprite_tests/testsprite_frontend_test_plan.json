@@ -1,0 +1,775 @@
+[
+  {
+    "id": "TC001",
+    "title": "Navigate from the homepage to a key section",
+    "description": "A visitor can understand the homepage value proposition and continue to a primary section from the site navigation.",
+    "category": "Homepage",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the value proposition is displayed"
+      },
+      {
+        "type": "action",
+        "description": "Click the navigation link to a primary section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the selected section page is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC002",
+    "title": "Open the pricing page from the homepage navigation",
+    "description": "A prospective customer can reach the pricing page from the homepage and see the available plans.",
+    "category": "Navegación entre páginas",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to view the pricing page"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the pricing page is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify available plans are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC003",
+    "title": "Review pricing plans",
+    "description": "A prospective customer can open the pricing page and compare the available plans and limits.",
+    "category": "Precios",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /precios"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify plan comparison content is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify included limits are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC004",
+    "title": "Compare plans on the pricing page",
+    "description": "A prospective customer can review the plan options and compare included limits and benefits.",
+    "category": "Página de Precios",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /precios"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify available plans are displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify pricing limits and benefits are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC005",
+    "title": "Open the documentation page from the homepage navigation",
+    "description": "A technical visitor can reach the documentation page from the homepage and see API guidance.",
+    "category": "Navegación entre páginas",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to view the documentation page"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the documentation page is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify API usage guidance is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC006",
+    "title": "Read the API documentation",
+    "description": "A prospective integrator can open the API documentation and review the technical usage guidance end to end.",
+    "category": "Documentación API",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /documentacion"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify API documentation content is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify technical usage guidance is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC007",
+    "title": "Open the directory from the homepage navigation",
+    "description": "A visitor can reach the billing software directory from the homepage and see software listings.",
+    "category": "Navegación entre páginas",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to view the directory"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the directory page is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify billing software listings are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC008",
+    "title": "Open the blog index from the homepage navigation",
+    "description": "A reader can reach the blog index from the homepage and see editorial content listings.",
+    "category": "Navegación entre páginas",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to view the blog"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the blog index is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify blog article listings are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC009",
+    "title": "Open the contact page from the homepage navigation",
+    "description": "A visitor can reach the contact page from the homepage and see the contact form.",
+    "category": "Navegación entre páginas",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to view the contact page"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the contact page is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the contact form is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC010",
+    "title": "Read the documentation page end to end",
+    "description": "A technical integrator can open the documentation page and read the API usage guidance.",
+    "category": "Documentación API",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /documentacion"
+      },
+      {
+        "type": "action",
+        "description": "Scroll through the documentation content"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify API usage guidance is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify implementation details are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC011",
+    "title": "Open the blog article from the blog index",
+    "description": "A reader can browse the blog index and open the article about Verifactu.",
+    "category": "Blog",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /blog"
+      },
+      {
+        "type": "action",
+        "description": "Click the article about Verifactu"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Verifactu article page is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the article content is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC012",
+    "title": "Move from the footer to a public section",
+    "description": "A visitor can use the site footer to navigate to another main public page and see its content.",
+    "category": "Navegación entre páginas",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the footer"
+      },
+      {
+        "type": "action",
+        "description": "Click the footer link to a public section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the selected public page is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the page-specific content is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC013",
+    "title": "Submit the contact form",
+    "description": "A user can fill out the contact form and complete the request flow successfully.",
+    "category": "Contacto",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contacto"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the name field with a valid name"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the email field with a valid email address"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the message field with a valid message"
+      },
+      {
+        "type": "action",
+        "description": "Submit the form"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a submission confirmation is visible"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC014",
+    "title": "Browse directory listings and open a partner site",
+    "description": "A visitor can review billing software listings in the directory and follow an affiliate link to the partner site.",
+    "category": "Directorio",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /directorio"
+      },
+      {
+        "type": "action",
+        "description": "Scroll through the directory listings"
+      },
+      {
+        "type": "action",
+        "description": "Click an affiliate link to a partner site"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the partner site is opened"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the directory listing flow is complete"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC015",
+    "title": "Understand the homepage value proposition",
+    "description": "A prospective customer can read the homepage and understand what VeriFactu.dev offers.",
+    "category": "Landing Page",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll through the homepage content"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the product value proposition is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a path to a key public section is available"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC016",
+    "title": "Open a partner program from the directory",
+    "description": "A visitor can click through from the directory to an external partner site and reach the provider page.",
+    "category": "Directorio de programas",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /directorio"
+      },
+      {
+        "type": "action",
+        "description": "Click a listed partner program link"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the external provider page is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the partner site content is visible"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC017",
+    "title": "Open and read the Verifactu article",
+    "description": "A reader can open the Verifactu article from the blog and read the full editorial content.",
+    "category": "Blog",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /blog"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to open the Verifactu article"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the article content is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the full article is readable"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC018",
+    "title": "Browse billing software listings",
+    "description": "A visitor can open the directory and review the available billing software listings.",
+    "category": "Directorio de programas",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /directorio"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify billing software listings are displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify multiple programs are available"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC019",
+    "title": "Reach a key section after reading the homepage",
+    "description": "A visitor can start on the homepage and navigate to a major public section after reviewing the landing content.",
+    "category": "Landing Page",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll through the homepage content"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to view a key public section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the selected section page is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC020",
+    "title": "Browse the blog index",
+    "description": "A reader can open the blog index and see the available articles to continue reading.",
+    "category": "Blog",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /blog"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify blog article listings are displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Verifactu article is available"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC021",
+    "title": "Use pricing navigation to continue exploring",
+    "description": "A visitor can open the pricing page and return to other site sections using the site navigation.",
+    "category": "Página de Precios",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /precios"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to return to the main site navigation"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to another public section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the new section page is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC022",
+    "title": "Send a message through the contact form",
+    "description": "A visitor can fill out the contact form and submit a message successfully.",
+    "category": "Contacto",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contacto"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the name field with Ana López"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the email field with ana@example.com"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the message field with a brief inquiry about the service"
+      },
+      {
+        "type": "action",
+        "description": "Submit the contact form"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a success confirmation is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the message submission flow is complete"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC023",
+    "title": "Read the Verifactu article end to end",
+    "description": "A reader can open the Verifactu article and read the full editorial content.",
+    "category": "Blog",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /blog/que-es-verifactu"
+      },
+      {
+        "type": "action",
+        "description": "Scroll through the article content"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the article content is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the article reaches its conclusion"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC024",
+    "title": "Use the contact page from the main site navigation",
+    "description": "A visitor can reach the contact page from the site chrome and confirm they are on the correct public page.",
+    "category": "Página de Contacto",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the contact link in the site navigation"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the contact page is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the contact form is displayed"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC025",
+    "title": "See contact form validation for missing required details",
+    "description": "A visitor can attempt to submit the contact form with missing required information and see validation feedback.",
+    "category": "Contacto",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contacto"
+      },
+      {
+        "type": "action",
+        "description": "Submit the contact form without filling required fields"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify contact form validation errors are visible"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC026",
+    "title": "Open the contact form and submit a complete message",
+    "description": "A visitor can open the contact page, fill in all required fields, and submit the request successfully.",
+    "category": "Página de Contacto",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contacto"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the contact form is displayed"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the name field with a valid full name"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the email field with a valid email address"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the message field with a helpful inquiry"
+      },
+      {
+        "type": "action",
+        "description": "Submit the contact form"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a success confirmation is visible"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC027",
+    "title": "Require contact details before submitting",
+    "description": "A visitor cannot submit the contact form when required fields are left empty, and validation is shown instead.",
+    "category": "Página de Contacto",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contacto"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the contact form is displayed"
+      },
+      {
+        "type": "action",
+        "description": "Submit the contact form without entering details"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify form validation errors are visible"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC028",
+    "title": "Retain the contact form after a validation error",
+    "description": "A visitor can correct a contact form submission attempt by updating the invalid field and successfully submitting the message.",
+    "category": "Página de Contacto",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contacto"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the contact form is displayed"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the name field with a valid full name"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the email field with an invalid email address"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the message field with a helpful inquiry"
+      },
+      {
+        "type": "action",
+        "description": "Submit the contact form"
+      },
+      {
+        "type": "action",
+        "description": "Replace the email field with a valid email address"
+      },
+      {
+        "type": "action",
+        "description": "Submit the contact form"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a success confirmation is visible"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC029",
+    "title": "Reject an invalid email in the contact form",
+    "description": "A visitor entering an invalid email address sees validation and cannot complete submission until the email is corrected.",
+    "category": "Página de Contacto",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contacto"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the contact form is displayed"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the name field with a valid full name"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the email field with an invalid email address"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the message field with a helpful inquiry"
+      },
+      {
+        "type": "action",
+        "description": "Submit the contact form"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify an email validation error is visible"
+      }
+    ],
+    "priority": "Low"
+  }
+]

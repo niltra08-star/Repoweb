@@ -1,0 +1,21 @@
+{
+  "name": "@verifactu/node",
+  "version": "1.0.0",
+  "description": "VeriFactu API - Node.js SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["verifactu", "facturacion-electronica", "api", "aeat"],
+  "author": "VeriFactu.dev",
+  "license": "MIT"
+}

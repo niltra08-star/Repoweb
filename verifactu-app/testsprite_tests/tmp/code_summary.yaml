@@ -1,0 +1,103 @@
+version: "2"
+type: frontend
+tech_stack:
+  - Next.js 14
+  - Tailwind CSS
+  - TypeScript
+  - React
+routes:
+  - path: /
+    file: src/app/page.tsx
+    auth_required: false
+    description: Landing page principal
+  - path: /precios
+    file: src/app/precios/page.tsx
+    auth_required: false
+    description: Página de precios de planes
+  - path: /documentacion
+    file: src/app/documentacion/page.tsx
+    auth_required: false
+    description: Documentación API
+  - path: /blog
+    file: src/app/blog/page.tsx
+    auth_required: false
+    description: Blog índice
+  - path: /blog/que-es-verifactu
+    file: src/app/blog/que-es-verifactu/page.tsx
+    auth_required: false
+    description: Artículo blog sobre Verifactu
+  - path: /directorio
+    file: src/app/directorio/page.tsx
+    auth_required: false
+    description: Directorio de programas de facturación
+  - path: /contacto
+    file: src/app/contacto/page.tsx
+    auth_required: false
+    description: Página de contacto
+features:
+  - name: Navegación entre páginas
+    description: El usuario puede navegar entre las diferentes páginas del sitio usando el header
+    files:
+      - src/components/Header.tsx
+      - src/app/page.tsx
+    entry_route: /
+    user_interactions:
+      - Hacer clic en los enlaces del menú
+      - Navegar a través del footer
+    auth_required: false
+  - name: Landing Page
+    description: Página principal con información sobre el servicio
+    files:
+      - src/app/page.tsx
+      - src/components/Header.tsx
+      - src/components/Footer.tsx
+    entry_route: /
+    user_interactions:
+      - Ver contenido de la landing page
+      - Hacer scroll por la página
+    auth_required: false
+  - name: Página de Precios
+    description: Muestra los planes de precios disponibles
+    files:
+      - src/app/precios/page.tsx
+    entry_route: /precios
+    user_interactions:
+      - Ver información de planes
+      - Comparar precios
+    auth_required: false
+  - name: Documentación API
+    description: Muestra la documentación técnica de la API
+    files:
+      - src/app/documentacion/page.tsx
+    entry_route: /documentacion
+    user_interactions:
+      - Leer documentación técnica
+    auth_required: false
+  - name: Blog
+    description: Índice del blog con artículos
+    files:
+      - src/app/blog/page.tsx
+    entry_route: /blog
+    user_interactions:
+      - Ver lista de artículos
+      - Leer artículo individual
+    auth_required: false
+  - name: Directorio de programas
+    description: Directorio de programas de facturación con enlaces de afiliación
+    files:
+      - src/app/directorio/page.tsx
+    entry_route: /directorio
+    user_interactions:
+      - Ver lista de programas
+      - Hacer clic en enlaces de programas
+    auth_required: false
+  - name: Página de Contacto
+    description: Formulario de contacto
+    files:
+      - src/app/contacto/page.tsx
+    entry_route: /contacto
+    user_interactions:
+      - Ver formulario de contacto
+      - Llenar campos del formulario
+    auth_required: false
+known_limitations: []

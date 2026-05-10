@@ -1,0 +1,17 @@
+{
+  "status": "commited",
+  "type": "frontend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:3000",
+  "executionArgs": {
+    "projectName": "verifactu-app",
+    "projectPath": "C:\\Users\\navas\\Desktop\\Cosas que hago\\ideasdeclaude\\verifactu-app",
+    "testIds": [],
+    "additionalInstruction": "Ejecutar todas las pruebas del plan generado. Probar todas las páginas del sitio: landing (/), precios, documentación, blog, directorio y contacto. Verificar que las páginas cargan correctamente y los elementos principales son visibles.",
+    "serverMode": "development",
+    "envs": {
+      "API_KEY": "sk-user-dcI0tjw5nBPURRTf3D3nAQ7ey4fP8Gl8hLmlSjQ8YvZX-D9CVfauE1rYba3qzgrAicIHF0a-pWk-nBec--7E23H-OhlBjCynlIiLTuC20blI1LIw8dzWkbwFYWE8y8Llf9s"
+    }
+  },
+  "serverPort": 64394
+}

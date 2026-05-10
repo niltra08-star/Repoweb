@@ -1,0 +1,9 @@
+# Robots.txt for VeriFactu.dev
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://verifactu.dev/sitemap.xml
+
+# Crawl-delay (optional, for politeness)
+Crawl-delay: 1

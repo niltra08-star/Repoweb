@@ -1,0 +1,17 @@
+{
+  "name": "verifactu/sdk",
+  "description": "VeriFactu API - PHP SDK",
+  "type": "library",
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "VeriFactu\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
