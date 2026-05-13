@@ -16,6 +16,41 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://verifactu.dev/directorio</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://verifactu.dev/directorio/holded</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://verifactu.dev/directorio/quipu</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://verifactu.dev/directorio/billin</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://verifactu.dev/directorio/factura-directa</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://verifactu.dev/directorio/declarando</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://verifactu.dev/directorio/verifactu-online</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://verifactu.dev/blog</loc>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
@@ -26,54 +61,44 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://verifactu.dev/blog/fechas-obligacion</loc>
+    <loc>https://verifactu.dev/blog/guia-verifactu-2027</loc>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://verifactu.dev/blog/comparativa-programas-facturacion</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://verifactu.dev/blog/fechas-obligacion-verifactu</loc>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://verifactu.dev/blog/mejores-apis-verifactu</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://verifactu.dev/blog/integrar-nextjs</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://verifactu.dev/blog/integrar-laravel</loc>
+    <loc>https://verifactu.dev/blog/sanciones-verifactu</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://verifactu.dev/blog/vs-software-tradicional</loc>
+    <loc>https://verifactu.dev/blog/programas-gratis-verifactu</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://verifactu.dev/blog/guia-sin-conocimientos</loc>
+    <loc>https://verifactu.dev/blog/como-elegir-software-verifactu</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://verifactu.dev/blog/precio-programa</loc>
+    <loc>https://verifactu.dev/blog/verifactu-pymes</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://verifactu.dev/blog/sanciones</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://verifactu.dev/blog/alternativas-holded</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://verifactu.dev/directorio</loc>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://verifactu.dev/contacto</loc>
